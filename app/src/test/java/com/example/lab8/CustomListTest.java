@@ -21,7 +21,7 @@ public class CustomListTest {
         list = new CustomList(null,new ArrayList<>());
         return list;
     }
-    
+
     /**
      * get the size of the list
      * increase the list by adding a new city
