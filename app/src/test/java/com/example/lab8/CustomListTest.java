@@ -44,7 +44,7 @@ public class CustomListTest {
     void testHasCities() {
         list = MockCityList();
         City city = new City("Vancouver", "BC");
-        list.add(city);
+        list.addCity(city);
         assertTrue(list.hasCity(city));
         City city2 = new City("Victoria", "BC");
         assertFalse(list.hasCity(city2));
@@ -54,7 +54,7 @@ public class CustomListTest {
     void testDelete() {
         list = MockCityList();
         City city = new City("Calgary", "Alberta");
-        list.add(city);
+        list.addCity(city);
         list.deleteCity(city);
         assertFalse(list.hasCity(city));
         assertThrows(IllegalArgumentException.class, () -> {
