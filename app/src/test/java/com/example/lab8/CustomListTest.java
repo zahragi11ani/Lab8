@@ -62,7 +62,7 @@ public class CustomListTest {
         });
     }
 
-    
+
     @Test
     void testCountCities() {
         list = MockCityList();
