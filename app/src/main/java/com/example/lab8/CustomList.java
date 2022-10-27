@@ -55,11 +55,11 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public boolean hasCity(City city) {
-        List<City> list = cities;
-        return (list.contains(city));
+        /*List<City> list = cities;
+        return (list.contains(city));*/
     }
 
-    public void deleteCity(City city) {
+  /*  public void deleteCity(City city) {
         if (cities.contains(city)) {
             cities.remove(city);
         }
@@ -73,5 +73,5 @@ public class CustomList extends ArrayAdapter<City> {
         List<City> list = cities;
         return list.size();
     }
-
+*/
 }
