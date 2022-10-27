@@ -62,12 +62,11 @@ public class CustomListTest {
         });
     }
 
-/*
-
+    
     @Test
     void testCountCities() {
         list = MockCityList();
         Assert.assertEquals(list.getCount(), list.countCities());
     }
-*/
+
 }
