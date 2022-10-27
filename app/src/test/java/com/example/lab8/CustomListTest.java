@@ -48,7 +48,7 @@ public class CustomListTest {
         assertTrue(list.hasCity(city));
         City city2 = new City("Victoria", "BC");
         assertFalse(list.hasCity(city2));
-    }}
+    }
 
 @Test
     void testDelete() {

@@ -59,7 +59,7 @@ public class CustomList extends ArrayAdapter<City> {
         return (list.contains(city));
     }
 
-  /*  public void deleteCity(City city) {
+   public void deleteCity(City city) {
         if (cities.contains(city)) {
             cities.remove(city);
         }
@@ -68,6 +68,7 @@ public class CustomList extends ArrayAdapter<City> {
         }
 
     }
+     /*
 
     public int countCities() {
         List<City> list = cities;
